@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATIENT PAGE</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.css">
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Input your css file name and path here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+
+<body>
+
+    <div class="container">
+        <div class="row  text-center">
+            <div class="col-md-4 offset-md-4">
+                <h2> PATIENT PAGE </h2>
+                <!-- Input your image name here -->
+                <img src="imgivory.jpg" alt="patient-image" class="patient-image">
+                <h3 class="patient-name"> Mr Kehinde Adeolu </h3>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- This container limits the contents inside the div to span the full width of the page -->
+    <div class="container">
+        <div class="row space">
+            <!-- This col-md-6 will make the split the content into two using the flexbox principle of 12girds system -->
+            <div class="col-md-6">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="patient-id">PATIENT ID</label>
+                        <input type="text" class="form-control" id="patient-id" placeholder="012345">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" class="form-control" id="name" placeholder="Mr Damilare Jamiu">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="dob">D.O.B</label>
+                                <input type="text" class="form-control" id="dob" placeholder="21-06-95">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="gender">GENDER</label>
+                                <select class="form-control" id="gender">
+                                    <option>Select</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="marital-status">MARITAL STATUS</label>
+                        <input type="text" class="form-control" id="marital-status" placeholder="Single">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">STATE</label>
+                        <input type="text" class="form-control" id="name" placeholder="Osun State">
+                    </div>
+
+                           
+
+                        <div class="form-group">
+                            <label for="name">LGA</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ife East">
+                        </div>
+    
+
+                    <div class="form-group">
+                        <label for="home-address">HOME ADDRESS</label>
+                        <input type="text" class="form-control" id="home-address"
+                            placeholder="No 10 Peju Ademola Way Yaba Lagos">
+                    </div>
+            </div>
+            <!-- End of the first col-md-6 -->
+
+            <!-- Start of the second col-md-6 -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" class="form-control" id="phone-number" placeholder="+234-805-000-0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="email-address">Email Address</label>
+                    <input type="text" class="form-control" id="email-address" placeholder="ivorycloud@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="next-of-kin">NEXT OF KIN</label>
+                    <input type="text" class="form-control" id="next-of-kin" placeholder="Miss Damilola Martins">
+                </div>
+
+                <div class="form-group">
+                    <label for="patient-type">PATIENT TYPE</label>
+                    <input type="text" class="form-control" id="patient-type" placeholder="Oxycodone">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="registration-time">TIME OF registration</label>
+                            <input type="text" class="form-control" id="registration-time" placeholder="Oxycodone">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="blood-type">BLOOD TYPE</label>
+                            <select class="form-control" id="blood-type">
+                                <option>O+</option>
+                                <option>O-</option>
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="weight">WEIGHT</label>
+                            <input type="text" class="form-control" id="weight" placeholder="160 kg">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="height">HEIGHT</label>
+                            <input type="text" class="form-control" id="height" placeholder="6 ft">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of the second col-md-6 -->
+            <button type="submit" class="btn btn-primary col-md-4 offset-md-4">SAVE EDIT</button>
+            <!-- Submit Button -->
+            </form>
+            <!-- Form Ending -->
+        </div>
+        <!-- End of the row div -->
+    </div>
+    <!-- End of the container div -->
+
+
+
+</body>
+
+</html>
